@@ -38,6 +38,10 @@ label {
   margin-right: 5px;
   font-weight: bold;
 }
+body {
+  background-color: #ffe4e1; /* Light pink */
+}
+
 
 /* Task List */
 #taskList {
