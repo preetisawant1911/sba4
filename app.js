@@ -82,7 +82,7 @@ function filterTasks()
   const statusFilter = document.getElementById("filterStatus").value;
   const categoryFilter = document.getElementById("filterCategory").value.toLowerCase();
 
-/*  const filtered = tasks.filter(task =>
+  const filtered = tasks.filter(task =>
  {
     const statusMatch = statusFilter === "All" || task.status === statusFilter;
     const categoryMatch = !categoryFilter || task.category.toLowerCase().includes(categoryFilter);
@@ -91,6 +91,6 @@ function filterTasks()
 
   displayTasks(filtered);
 }
-*/
+
 // Initial display
 displayTasks();
