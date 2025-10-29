@@ -23,14 +23,14 @@ input, select, button {
 }
 
 button {
-  background-color: #3498db;
+  background-color: #b7c155;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #012034;
+  background-color: #09583e;
 }
 
 /* Filter Section */
@@ -39,7 +39,7 @@ label {
   font-weight: bold;
 }
 body {
-  background-color: #ffe4e1; /* Light pink */
+  background-color: #ea8176; /* Light pink */
 }
 
 
