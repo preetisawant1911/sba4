@@ -1,0 +1,68 @@
+/* General Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Input Section */
+input, select, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #012034;
+}
+
+/* Filter Section */
+label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+/* Task List */
+#taskList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#taskList li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Task Info */
+.task-info {
+  flex-grow: 1;
+}
+
+/* Status Dropdown */
+.status-select {
+  margin-left: 10px;
+}
